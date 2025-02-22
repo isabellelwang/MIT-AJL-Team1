@@ -1,7 +1,7 @@
 # MIT-AJL-Team1
 
 Project Overview: 
-The project aims to increase awareness for the harmful social implications of AI and reduce significant threats. 
+The project aims to increase awareness for the harmful social implications of AI and reduce significant discriminatory threats. 
 
 Real World Impact: 
 The model should classify skin conditions across diverse skin tones to increase fairness in dermatology and ensure that historically underrepresented groups deserve fair treatment. 
