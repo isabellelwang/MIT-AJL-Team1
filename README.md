@@ -9,7 +9,7 @@ The model should classify skin conditions across diverse skin tones to increase 
 
 Competition Objectives: 
 - Create a model that is able to classify 21 various skin conditions across a range of skin tones
-- Document the process to tie back to the real world impact
+- Document the process to tie technologies and model back to the real world impact
 
 Overall Team Goals:
 - Create working model first then fine tune for optimization.
