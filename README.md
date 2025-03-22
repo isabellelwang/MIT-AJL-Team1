@@ -14,8 +14,8 @@ __________________________________________________________________________
 
 - uilt a \[insert model type\] using \[techniques used\] to solve \[Kaggle competition task\]
 - Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
-- Used \[explainability tool\] to interpret model decisions
-- Implemented \[data preprocessing method\] to optimize results within compute constraints
+- Used \[explainability tool\] tots interpret model decisions
+- Implemented random shifts to optimize results within compute constraints
 _________________________________________________________________________
 
 **Setup and Execution**
@@ -53,18 +53,23 @@ Overall Team Goals:
 __________________________________________________________________________
 
 **Data Exploration**
+We used the data provided on the Kaggle. From their description, "About 4500 images are in this set, representing 21 skin conditions out of the 100+ in the full FitzPatrick set."
 
 Data Processing:
 The main data processing we did for this process was data augmentation and resizing. For data augmentation we did most of the basic operations, zoom in/out, brightness changess, rotations, and shifting. We also resized all images to (244, 244) for more consistancy. After this step, we created 25740 images from the original 2860 images. Each category has 9x the number of images what it had initially.  We made sure to prepare the images through a variety of transformations because the conditions look different on everyone, so we wanted to increase the diversity of data that our model was seeing. 
 
 
 __________________________________________________________________________
+
 **Model Development**
+
 We used a CNN to create our prediction data. We split up our data to be 80% training and 20% validation. We would fine tune the model by adding more epochs and slow down the training. We noticed that the training and validation accuracy increased the more we trained it, which was what we expected. 
 
 __________________________________________________________________________
+
 **Results & Key Findings**
-Our initial model had an accuracy of 0.32/ 
+
+Our initial model had an accuracy of 0.32.
 __________________________________________________________________________
 
 **Impact Narrative**
