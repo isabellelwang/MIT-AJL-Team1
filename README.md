@@ -5,7 +5,7 @@ Team Members:
 [Karen Bei](https://github.com/kbei5234), 
 [Isabelle Wang](https://github.com/isabellelwang),
 [Michelangelo Zampieri](https://github.com/mzampieri19),
-[Humaira Sarwary](https://github.com/humairasarwary)
+[Humaira Sarwary](https://github.com/humairasarwary),
 [Natalie Cheng](https://github.com/nataliemcheng)
 
 Competition Overview: 
