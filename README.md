@@ -5,6 +5,7 @@ Team Members:
 [Karen Bei](https://github.com/kbei5234), 
 [Isabelle Wang](https://github.com/isabellelwang),
 [Michelangelo Zampieri](https://github.com/mzampieri19)
+[Humaira Sarwary](https://github.com/humairasarwary)
 
 Competition Overview: 
 This Kaggle Competition aims to put the machine learning skills learned over the past year into a more practical setting. We see the importance of preparing a quality data set, training it, and fine tuning our model to meet real world needs. 
