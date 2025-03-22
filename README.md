@@ -3,7 +3,8 @@ Equitable AI for Dermatology Team 1
 
 Team Members:
 [Karen Bei
-]([url](https://github.com/kbei5234))
+]([url](https://github.com/kbei5234)) [Isabelle Wang
+]([url](https://github.com/isabellelwang))
 
 Competition Overview: 
 This Kaggle Competition aims to put the machine learning skills learned over the past year into a more practical setting. We see the importance of preparing a quality data set, training it, and fine tuning our model to meet real world needs. 
