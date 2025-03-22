@@ -5,6 +5,7 @@ Team Members:
 [Karen Bei
 ]([url](https://github.com/kbei5234)) [Isabelle Wang
 ]([url](https://github.com/isabellelwang))
+[Michelangelo Zampieri](https://github.com/mzampieri19)
 
 Competition Overview: 
 This Kaggle Competition aims to put the machine learning skills learned over the past year into a more practical setting. We see the importance of preparing a quality data set, training it, and fine tuning our model to meet real world needs. 
@@ -24,6 +25,8 @@ Overall Team Goals:
 - Achieve top 10 rank
 - Everyone works on things they are familiar and unfamiliar with 
 
+Data Processing:
+The main data processing we did for this process was data augmentation and resizing. For data augmentation we did most of the basic operations, zoom in/out, brightness changess, rotations, and shifting. We also resized all images to (244, 244) for more consistancy. 
 
 Files in this Github:
 - pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the trianing dataset to provide mor training images.
