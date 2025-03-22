@@ -4,7 +4,7 @@ Equitable AI for Dermatology Team 1
 Team Members:
 [Karen Bei](https://github.com/kbei5234), 
 [Isabelle Wang](https://github.com/isabellelwang),
-[Michelangelo Zampieri](https://github.com/mzampieri19)
+[Michelangelo Zampieri](https://github.com/mzampieri19),
 [Humaira Sarwary](https://github.com/humairasarwary)
 
 Competition Overview: 
