@@ -20,7 +20,16 @@ _________________________________________________________________________
 
 **Setup and Execution**
 
-- Our google colab is located here: [https://colab.research.google.com/drive/1e_enKWNntgDDqVayIwotbCczbUg1toRC?usp=sharing](url)
+Files in this Github:
+- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the trianing dataset to provide mor training images.
+
+- training.ipynb. In this notebook a CNN model is prepared and trained.
+
+- my_model.h5. Saves the model and its paramters to make it easier to load in the future (no need to train it everytime).
+
+- predictions.csv. A Csv file of the model's predictions (what we would submit).
+
+To run the pre-processing and training notebooks, download the files and open them in your desired workspace. After that, you should be able to run all the cells like any other jupyter notebook. 
 _________________________________________________________________________
 
 **Project Overview** 
@@ -46,16 +55,8 @@ __________________________________________________________________________
 **Data Exploration**
 
 Data Processing:
-The main data processing we did for this process was data augmentation and resizing. For data augmentation we did most of the basic operations, zoom in/out, brightness changess, rotations, and shifting. We also resized all images to (244, 244) for more consistancy. 
+The main data processing we did for this process was data augmentation and resizing. For data augmentation we did most of the basic operations, zoom in/out, brightness changess, rotations, and shifting. We also resized all images to (244, 244) for more consistancy. After this step, we created 17160 images from the original 2860 images. Each category has 5x the number of images what it had initially. 
 
-Files in this Github:
-- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the trianing dataset to provide mor training images.
-
-- training.ipynb. In this notebook a CNN model is prepared and trained.
-
-- my_model.h5. Saves the model and its paramters to make it easier to load in the future (no need to train it everytime).
-
-- predictions.csv. A Csv file of the model's predictions (what we would submit).
 
 __________________________________________________________________________
 **Model Development**
