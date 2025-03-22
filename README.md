@@ -21,13 +21,13 @@ _________________________________________________________________________
 **Setup and Execution**
 
 Files in this Github:
-- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the trianing dataset to provide mor training images.
+- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the training dataset to provide more training images.
 
 - training.ipynb. In this notebook a CNN model is prepared and trained.
 
-- my_model.h5. Saves the model and its paramters to make it easier to load in the future (no need to train it everytime).
+- my_model.h5. Saves the model and its parameters to make it easier to load in the future (no need to train it everytime).
 
-- predictions.csv. A Csv file of the model's predictions (what we would submit).
+- predictions.csv. A CSV file of the model's predictions (what we would submit).
 
 To run the pre-processing and training notebooks, download the files and open them in your desired workspace. After that, you should be able to run all the cells like any other jupyter notebook. 
 _________________________________________________________________________
