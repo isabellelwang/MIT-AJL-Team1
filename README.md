@@ -1,6 +1,13 @@
 # MIT-AJL-Team1
 Equitable AI for Dermatology Team 1
 
+Team Members:
+[Karen Bei
+]([url](https://github.com/kbei5234))
+
+Competition Overview: 
+This Kaggle Competition aims to put the machine learning skills learned over the past year into a more practical setting. We see the importance of preparing a quality data set, training it, and fine tuning our model to meet real world needs. 
+
 Project Overview: 
 The project aims to increase awareness for the harmful social implications of AI and reduce significant discriminatory threats. 
 
@@ -24,4 +31,5 @@ Files in this Github:
 
 - my_model.h5. Saves the model and its paramters to make it easier to load in the future (no need to train it everytime).
 
-- predictions.csv. A Csv file of the model's predictions, what we would submit). 
+- predictions.csv. A Csv file of the model's predictions (what we would submit). 
+
