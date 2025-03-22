@@ -60,13 +60,20 @@ The main data processing we did for this process was data augmentation and resiz
 
 __________________________________________________________________________
 **Model Development**
+We used a CNN to create our prediction data. We split up our data to be 80% training and 20% validation. We would fine tune the model by adding more epochs and slow down the training. We noticed that the training and validation accuracy increased the more we trained it, which was what we expected. 
 
 __________________________________________________________________________
 **Results & Key Findings**
-
+Our initial model had an accuracy of 0.32/ 
 __________________________________________________________________________
 
 **Impact Narrative**
+1. What steps did you take to address model fairness?
+   We made sure to scale all the images so that there was plenty across the board. Also, by scaling each one to the same size, we limit the amount of information that can be conveyed, which helps the model to focus on the category rather than adding extra information that could lead to biases. 
+   
+3. What broader impact could your work have?
+   Our work could be relevant beyond the scope of the project because there are many factors to consider before deploying a new model for public use. We've started to identify how we would like to approach it and what developers can do to ensure equity. It goes to show how interdiscplinary AI/ML is because we need to consider social implications of the technology or how it may be used in various audiences. 
 __________________________________________________________________________
 
 **Next Steps & Future Improvements**
+With more time, we think it would be interesting to add filters to slightly change the skin colors and create a bit more data. We would also hope to train the model more since it takes quite a bit to get a model. 
