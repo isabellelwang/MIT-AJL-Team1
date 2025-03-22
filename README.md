@@ -21,13 +21,13 @@ _________________________________________________________________________
 **Setup and Execution**
 
 Files in this Github:
-- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the trianing dataset to provide mor training images.
+- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the training dataset to provide more training images.
 
 - training.ipynb. In this notebook a CNN model is prepared and trained.
 
-- my_model.h5. Saves the model and its paramters to make it easier to load in the future (no need to train it everytime).
+- my_model.h5. Saves the model and its parameters to make it easier to load in the future (no need to train it everytime).
 
-- predictions.csv. A Csv file of the model's predictions (what we would submit).
+- predictions.csv. A CSV file of the model's predictions (what we would submit).
 
 To run the pre-processing and training notebooks, download the files and open them in your desired workspace. After that, you should be able to run all the cells like any other jupyter notebook. 
 _________________________________________________________________________
@@ -69,11 +69,14 @@ __________________________________________________________________________
 
 **Impact Narrative**
 1. What steps did you take to address model fairness?
+   
    We made sure to scale all the images so that there was plenty across the board. Also, by scaling each one to the same size, we limit the amount of information that can be conveyed, which helps the model to focus on the category rather than adding extra information that could lead to biases. 
    
 3. What broader impact could your work have?
+   
    Our work could be relevant beyond the scope of the project because there are many factors to consider before deploying a new model for public use. We've started to identify how we would like to approach it and what developers can do to ensure equity. It goes to show how interdiscplinary AI/ML is because we need to consider social implications of the technology or how it may be used in various audiences. 
 __________________________________________________________________________
 
 **Next Steps & Future Improvements**
+
 With more time, we think it would be interesting to add filters to slightly change the skin colors and create a bit more data. We would also hope to train the model more since it takes quite a bit to get a model. 
