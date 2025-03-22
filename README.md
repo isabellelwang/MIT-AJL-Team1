@@ -58,7 +58,9 @@ We used the data provided on the Kaggle. From their description, "About 4500 ima
 Data Processing:
 The main data processing we did for this process was data augmentation and resizing. For data augmentation we did most of the basic operations, zoom in/out, brightness changess, rotations, and shifting. We also resized all images to (244, 244) for more consistancy. After this step, we created 25740 images from the original 2860 images. Each category has 9x the number of images what it had initially.  We made sure to prepare the images through a variety of transformations because the conditions look different on everyone, so we wanted to increase the diversity of data that our model was seeing. 
 
-
+Visualizations:
+![Data Exploration 1](data_exploration1.png)
+![Data Exploration 2](data_exploration2.png)
 __________________________________________________________________________
 
 **Model Development**
