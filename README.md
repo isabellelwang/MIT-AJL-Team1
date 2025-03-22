@@ -12,7 +12,7 @@ __________________________________________________________________________
 
 **Project Highlights**
 
-- Built a CNN using \[techniques used\] to solve classify different skin conditions
+- Built a CNN using many layers, pooling, and learning rates to classify different skin conditions
 - Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
 - Used Tensorflow libraries to interpret model decisions
 - Implemented horizontal and vertical shifts, scaling, rotations, and reflections to optimize results within compute constraints
