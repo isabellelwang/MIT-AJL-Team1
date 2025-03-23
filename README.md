@@ -21,13 +21,22 @@ _________________________________________________________________________
 **Setup and Execution**
 
 Files in this Github:
-- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the training dataset to provide more training images.
 
-- training.ipynb. In this notebook a CNN model is prepared and trained.
+- AJL_Team1_Submission1.csv. Our first submission file.
+
+- AJL_Team1_Submission2.csv. Our second submission file.
+
+- README. This file
+
+- best_fine_tuned_model.h5. Saves the updated model.
 
 - my_model.h5. Saves the model and its parameters to make it easier to load in the future (no need to train it everytime).
 
+- pre-processing.ipynb. This notebook checks the original data, and does some basic exploration. Then it augments the images in the training dataset to provide more training images.
+
 - predictions.csv. A CSV file of the model's predictions (what we would submit).
+
+- training.ipynb. In this notebook a CNN model is prepared and trained.
 
 To run the pre-processing and training notebooks, download the files and open them in your desired workspace. After that, you should be able to run all the cells like any other jupyter notebook. 
 _________________________________________________________________________
